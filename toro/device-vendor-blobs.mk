@@ -21,10 +21,6 @@ PRODUCT_COPY_FILES := \
 # All the blobs necessary for toro
 PRODUCT_COPY_FILES += \
     vendor/samsung/toro/proprietary/fRom:system/bin/fRom \
-    vendor/samsung/toro/proprietary/BIP.apk:system/app/BIP.apk \
-    vendor/samsung/toro/proprietary/IMSFramework.apk:system/app/IMSFramework.apk \
-    vendor/samsung/toro/proprietary/SDM.apk:system/app/SDM.apk \
-    vendor/samsung/toro/proprietary/SPG.apk:system/app/SPG.apk \
     vendor/samsung/toro/proprietary/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/toro/proprietary/lib_gsd4t.so:system/lib/lib_gsd4t.so \
     vendor/samsung/toro/proprietary/pvrsrvctl:system/vendor/bin/pvrsrvctl \
